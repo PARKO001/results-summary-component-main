@@ -1,0 +1,54 @@
+
+*{
+    margin: 0;padding: 0;
+}
+.flex_properties{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main{
+}
+.maincontainer{
+    height: 100vh;
+}
+.container{
+    height: 50vh;
+    width: 600px;
+    border: 2px solid;
+}
+.left{
+    width: 300px;
+    height: inherit;
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+.left h3{
+    margin: 20px;
+}
+.circle{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 255, 0.515);
+}
+.circle h1{}
+.circle p{}
+
+.left h2{}
+.left p{}
+.right{
+    width: 300px;
+    height: inherit;
+    /* background-color: red; */
+    border: 2px solid red;
+}
+.scorebox{}
+.box1{}
+.box2{}
+.box3{}
+.box4{}
+.btn{}
