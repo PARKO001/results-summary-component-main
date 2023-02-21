@@ -21,6 +21,7 @@ body{
 }
 .card{
     height: 100vh;
+    flex-direction: column;
 }
 .container{
     height: 60vh;
@@ -170,4 +171,7 @@ body{
     .box{
         width: 80%;
     }
+}
+footer{
+    text-align: center;
 }
