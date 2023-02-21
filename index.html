@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,13 +8,14 @@
   <title>Frontend Mentor | Results summary component</title>
   <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
   <main>
-    <div class="maincontainer flex_properties">
+    <div class="card flex_properties">
       <div class="container flex_properties">
         <div class="left">
           <h3>Your Result</h3>
-          <div class="circle">
+          <div class="circle flex_properties">
             <h1>76</h1>
             <p>of 100</p>
           </div>
@@ -21,20 +23,70 @@
           <p> You scored higher than 65% of the people who have taken these tests.</p>
         </div>
         <div class="right">
-          <h3></h3>
-          <div class="scorebox">
-            <div class="box1"></div>
-            <div class="box2"></div>
-            <div class="box3"></div>
-            <div class="box4"></div>
+          <h3>Summary</h3>
+          <div class="scorebox flex_properties">
+            <div class="box1 box flex_properties">
+              <div class="leftbox flex_properties">
+                <div class="leftboximg">
+                  <img class="boximage" src="./assets/images/icon-reaction.svg" alt="">
+                </div>
+                <div class="leftboxtext1 ">
+                  Reaction</div>
+              </div>
+              <div class="rightbox">
+                <p class="p1 doublepara"> 80 </p>
+                <p class="p2 doublepara">/ 100</p>
+              </div>
+            </div>
+            <div class="box2 box flex_properties">
+              <div class="leftbox flex_properties">
+                <div class="leftboximg">
+                  <img class="boximage"  src="./assets/images/icon-memory.svg" alt="">
+                </div>
+                <div class="leftboxtext2 ">
+                  Memory</div>
+              </div>
+              <div class="rightbox">
+                <p class="p1 doublepara"> 92 </p>
+                <p class="p2 doublepara">/ 100</p>
+              </div>
+            </div>
+            <div class="box3 box flex_properties">
+              <div class="leftbox flex_properties">
+                <div class="leftboximg">
+                  <img class="boximage"  src="./assets/images/icon-verbal.svg" alt="">
+                </div>
+                <div class="leftboxtext3 ">
+                  Verbal</div>
+              </div>
+              <div class="rightbox">
+                <p class="p1 doublepara"> 61 </p>
+                <p class="p2 doublepara">/ 100</p>
+              </div>
+            </div>
+            <div class="box4 box flex_properties">
+              <div class="leftbox flex_properties">
+                <div class="leftboximg">
+                  <img class="boximage"  src="./assets/images/icon-visual.svg" alt="">
+                </div>
+                <div class="leftboxtext4 ">
+                  Visual</div>
+              </div>
+              <div class="rightbox">
+                <p class="p1 doublepara"> 72 </p>
+                <p class="p2 doublepara">/ 100</p>
+              </div>
+
+            </div>
           </div>
-          <button class="btn"></button>
+          <button class="btn">Continue</button>
         </div>
       </div>
     </div>
-    
+
   </main>
 </body>
+
 </html>
 
 
